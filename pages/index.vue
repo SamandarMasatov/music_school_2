@@ -8,5 +8,6 @@
     <Galareya />
     <Team />
     <Contact />
+    
   </div>
 </template>
