@@ -2,12 +2,10 @@
   <div>
     <Home />
     <About />
-
     <News />
     <Kafedra />
     <Galareya />
     <Team />
-    <Contact />
-    
+    <Contact />  
   </div>
 </template>
