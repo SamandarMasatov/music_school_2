@@ -1,0 +1,193 @@
+@media (max-width: 1025px) {
+  .page_title {
+    font-size: 30px;
+  }
+  .header_menu {
+    display: none;
+  }
+
+  /* ======== telefon ========= */
+  .telefon_img img {
+    width: 70px;
+    height: 70px;
+  }
+  /* =============header=============== */
+  .header_logo img {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .header_search i {
+    color: #ffffff;
+    font-size: 22px;
+  }
+  /* about qismi ===========================*/
+  .about_in {
+    /* padding: 100px 0; */
+    max-width: 1296px;
+    padding: 40px 20px;
+  }
+  /* ================burger================ */
+  .burger {
+    display: block;
+  }
+  /* =================header===================== */
+  .header_menu {
+    display: none;
+  }
+  .header_btn {
+    display: none;
+  }
+  /* =====================sports=================== */
+  .sports {
+    padding: 20px;
+  }
+  /* =================== News ================ */
+  .news_feature_btn button {
+    font-size: 14px;
+  }
+  .news_feature_subtext h2 {
+    font-size: 25px;
+    padding-top: 6px;
+  }
+  .news_data {
+    font-size: 14px;
+    padding-top: 7px;
+    line-height: 20px;
+  }
+  /* ==============contact=============== */
+
+  /* ===============footer start============ */
+  .footer_in {
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .footer_text {
+    padding: 20px;
+  }
+
+  .footer_canyon {
+    padding: 60px 20px;
+  }
+  .footer_schooltext p {
+    font-size: 14px;
+  }
+  .footer_link ul {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-family: "Lexend", sans-serif;
+  }
+}
+/* ================= 934px ============= */
+
+@media (max-width: 937px) {
+  /* =============== News ================= */
+  .news_other {
+    grid-template-columns: auto;
+  }
+  /* ==================footer============= */
+  .footer_compus {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+}
+/* =================== 760 responsev=========== */
+
+@media (max-width: 769px) {
+  /* =================== news =================== */
+  .news_feature {
+    flex-direction: column;
+  }
+  .news_feature_img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .news_feature_text {
+    padding: 0 0px;
+  }
+  /* ==============footer============ */
+
+  .footer_canyon {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* ============== 625  responsev============== */
+
+@media (max-width: 627px) {
+  /* ========================sports =================== */
+  .sport_cards_text h2 {
+    color: #002147;
+    font-size: 24px;
+    font-family: "Lexend", sans-serif;
+    margin-bottom: 20px;
+  }
+
+  /* ============footer ============= */
+  .footer_compus {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: start;
+  }
+}
+
+/* ==================566 responsev============ */
+
+@media (max-width: 566px) {
+  /* ===========  News ============= */
+  .news_other_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .news_other_text {
+    margin-top: 10px;
+    padding: 0px 0px;
+    flex: 1 1 9rem;
+  }
+  /* ================footer ========= */
+  .footer_link ul {
+    padding: 10px;
+  }
+}
+
+/* ===============425 responsrev============== */
+
+@media (max-width: 427px) {
+  .page_title {
+    font-size: 27px;
+  }
+  /* =================sports============= */
+  .sport_cards_text h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  /* ==================footer========== */
+  .icon_link i {
+    font-size: 16px;
+    color: #002147;
+    background-color: #fff;
+  }
+}
+
+/* ===============375 responsive ============ */
+
+@media (max-width: 376px) {
+  .page_title {
+    font-size: 22px;
+  }
+  /* ========sports============ */
+
+  .sport_cards_text h2 {
+    color: #002147;
+    font-size: 19px;
+    font-family: "Lexend", sans-serif;
+    margin-bottom: 20px;
+  }
+}
